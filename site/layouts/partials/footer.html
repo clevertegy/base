@@ -1,0 +1,55 @@
+<!-- Go To Top ============================================= -->
+<div id="gotoTop" class="icon-angle-up"></div>
+<!-- External JavaScripts ============================================= -->
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/plugins.js"></script>
+<!-- Footer Scripts ============================================= -->
+<script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyCku-h-VvcLhCv9cn9wGwuCWC6Tk1DAwvw"></script>
+<script type="text/javascript" src="/js/jquery.gmap.js"></script>
+<script type="text/javascript">
+jQuery(window).load(function(){
+var jQuerycontainer = jQuery('#portfolio');
+jQuery(window).resize(function() {
+SEMICOLON.portfolio.portfolioDescMargin();
+});
+var t = setTimeout(function(){ SEMICOLON.portfolio.portfolioDescMargin(); }, 200);
+jQuery('#headquarters-map').gMap({
+address: '대한민국 서울특별시 청담동 선릉로 818',
+maptype: 'ROADMAP',
+zoom: 13,
+markers: [
+{
+address: "대한민국 서울특별시 청담동 선릉로 818",
+html: "대한민국 서울특별시 청담동 선릉로 818",
+icon: {
+  image: "/images/icons/map-icon-red.png",
+  iconsize: [32, 32],
+  iconanchor: [14,44]
+}
+}
+],
+doubleclickzoom: false,
+controls: {
+panControl: true,
+zoomControl: false,
+mapTypeControl: false,
+scaleControl: false,
+streetViewControl: false,
+overviewMapControl: false
+},
+
+});
+});
+jQuery(window).scroll( function(){
+var currentScrollSection = SEMICOLON.header.onePageCurrentSection();
+if( jQuery('#'+currentScrollSection).hasClass('dark') ) {
+jQuery('#header').addClass('dark');
+jQuery('#header-wrap').removeClass('not-dark');
+} else {
+jQuery('#header').removeClass('dark');
+jQuery('#header-wrap').addClass('not-dark');
+}
+SEMICOLON.header.logo();
+});
+</script>

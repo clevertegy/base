@@ -1,0 +1,36 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Collabkorea"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[menu]
+  [[menu.nav]]
+    name = "소개"
+    id_u = "home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "크리에이터"
+    identifier = "creators"
+    url = "/creators/"
+    weight = 2
+  [[menu.nav]]
+    name = "브랜드 & 에이전시"
+    id_u = "about"
+    url = "/about/"
+    weight = 3
+  [[menu.nav]]
+    name = "저작권 관리"
+    id_u = "drm"
+    url = "/drm/"
+    weight = 4
+  [[menu.nav]]
+    name = "문의하기"
+    id_u = "login"
+    url = "/login/"
+    weight = 5

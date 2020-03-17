@@ -1,0 +1,108 @@
+{{ define "main" }}
+
+{{ partial "side.html" . }}
+<!-- Document Wrapper ============================================= -->
+
+<body>
+	<div id="wrapper" class="clearfix">
+		<!-- header section -->
+    {{ partial "nav.html" . }}
+		<!-- header end -->
+		<!-- Slider ============================================= -->
+		<section id="slider" class="slider-parallax full-screen force-full-screen">
+			<div class="slider-parallax-inner">
+				<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden">
+					<div class="container center"></div>
+					<div class="video-wrap no-placeholder">
+            <div class="video-placeholder" style="background-image: url('/collab/images/copyright/copyright-title.png');"></div>
+            <div class="video-overlay">
+              <div class='col-heading-overlay'>
+                <p class='col-text-heading col-text-en'>PROTECT CONTENTS.</p>
+                <p class='col-text-heading col-text-en'>BOOST YOUR</p>
+                <p class='col-text-heading col-text-en'>REVENUE.</p>
+                <p class='col-text-heading-sub'>콘텐츠를 보호하고</p>
+                <p class='col-text-heading-sub'>수익을 증대시키세요.</p>
+              </div>
+            </div>
+					</div>
+					<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+				</div>
+			</div>
+		</section>
+    <div class='container col-position-relative hidden-xs'>
+      <div class='col-heading-arrow'></div>
+    </div>
+    <section id="content">
+      <div class="content-wrap nopadding nomargin">
+        <div id="section-drm" class="page-section">
+          <div class="container clearfix ">
+            <h2 class="col-text-head2 col-text-en">Digital Right Management</h2>
+            <p class='col-text3 col-text-color-red col-text-weight-bold'>저작권 보호</p>
+            <p class='col-text4 col-text-keep-all'>Collab의 DRM 서비스는 YouTube 플랫폼에서 콘텐츠 저작권을 보호해드립니다.  영상 클립과 음원 저작권을 플랫폼 내에서 관리하고 보호하여 숨어있는 여러분의 수익을 찾아드립니다.</p>
+          </div>
+        </div>
+        <div class="page-section nopadding col-position-relative">
+          <div class="container clearfix nopadding">
+            <img src='/collab/images/copyright/drm.jpg'>
+            <div class='col-overlay col-overlay-red'></div>
+          </div>
+        </div>
+        <div class="page-section">
+          <div class="container clearfix">
+            <div class='row'>
+              <div class='col-md-2'>
+                <span class='col-text-en col-text-circle'>FAQ</span>
+              </div>
+              <div class='col-md-10'>
+                <ul class='col-list col-text-keep-all'>
+                  <li class="col-flex-start">
+                    <span class="col-list-header">1</span>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">저작권 관리가 필요할까요?</div>
+                      <div class='col-lits-content-sub'>YouTube 플랫폼 내의 콘텐츠 저작권 관리는 필수적입니다.  능동적으로 대처하지 않을 경우, 수익을 잃어버릴 수 있습니다.</div>
+                    </div>
+                  </li>
+                  <li class="col-flex-start">
+                    <span class="col-list-header">2</span>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">어떤 콘텐츠가 보호 될 수 있나요?</div>
+                      <div class='col-lits-content-sub'>YouTube 채널의 영상 뿐 아니라 영화, 드라마, 애니메이션 등 모든 비디오 콘텐츠와
+음원, 뮤직비디오 등 오디오 콘텐츠 등이 보호 받을 수 있습니다</div>
+                    </div>
+                  </li>
+                  <li class="col-flex-start">
+                    <span class="col-list-header">3</span>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">내 저작물을 다른 사람이 업로드 하고 있습니다.</div>
+                      <div class='col-lits-content-sub'>YouTube 플랫폼 내에서 저작권 관리는 저작권자가 능동적으로 대처하지 않는 경우,
+보호받지 못합니다. Collab과 상담을 통해 저작물을 보호받으세요. </div>
+                    </div>
+                  </li>
+                  <li class="col-flex-start">
+                    <span class="col-list-header">4</span>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">내 동영상이 수익화 되지 않습니다.</div>
+                      <div class='col-lits-content-sub'>수익화가 이루어지지 않는 이유는 다양합니다. 저작권 문제, 커뮤니티 가이드라인 준수 등
+수익화 중단의 이유를 빠르게 파악하고 이에 맞게 대처하는 것이 필수적입니다.
+전문가의 도움을 통해 이를 해결하세요.</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-section red col-contact-container">
+          <div class="container clearfix">
+            <div class="sc-content pull-right">
+              <span class='col-text3'>더 많은 정보가 필요하신가요?<hr class='col-text-hr'></span>
+              <a class='col-btn-outline' href='/login'>문의하기</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	</div>
+  {{ partial "footer2.html" . }}
+
+{{ end }}

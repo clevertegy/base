@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pgrm6.svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#ef373e}
+        </style>
+        <clipPath id="clip-path">
+            <path id="사각형_22" d="M0 0h64v64H0z" class="cls-1" data-name="사각형 22"/>
+        </clipPath>
+    </defs>
+    <g id="그룹_34" data-name="그룹 34">
+        <g id="그룹_33" class="cls-2" data-name="그룹 33">
+            <path id="패스_66" d="M5 52H3V26a4 4 0 0 1 4-4h1v2H7a2 2 0 0 0-2 2z" class="cls-3" data-name="패스 66"/>
+            <path id="패스_67" d="M61 52h-2V26a2 2 0 0 0-2-2h-1v-2h1a4 4 0 0 1 4 4z" class="cls-3" data-name="패스 67"/>
+            <path id="패스_68" d="M56 64H8a8.009 8.009 0 0 1-8-8 1 1 0 0 1 1-1h25a1 1 0 0 1 1 1v1h10v-1a1 1 0 0 1 1-1h25a1 1 0 0 1 1 1 8.009 8.009 0 0 1-8 8M2.083 57A6.01 6.01 0 0 0 8 62h48a6.011 6.011 0 0 0 5.917-5H39v1a1 1 0 0 1-1 1H26a1 1 0 0 1-1-1v-1z" class="cls-3" data-name="패스 68"/>
+            <path id="패스_69" d="M32 48a.994.994 0 0 1-.515-.143l-20-12a1 1 0 0 1 0-1.714l5-3a1 1 0 1 1 1.03 1.714L13.943 35 32 45.834 50.057 35l-3.572-2.143a1 1 0 0 1 1.03-1.714l5 3a1 1 0 0 1 0 1.714l-20 12A.994.994 0 0 1 32 48" class="cls-3" data-name="패스 69"/>
+            <path id="패스_70" d="M32 25a1 1 0 0 1-.514-.142l-20-12a1 1 0 0 1 .033-1.734l20-11a1 1 0 0 1 .963 0l20 11a1 1 0 0 1 .033 1.734l-20 12A1 1 0 0 1 32 25M14.007 12.038L32 22.834l17.993-10.8L32 2.142z" class="cls-3" data-name="패스 70"/>
+            <path id="패스_71" d="M52 36a1 1 0 0 1-1-1V12a1 1 0 0 1 2 0v23a1 1 0 0 1-1 1" class="cls-3" data-name="패스 71"/>
+            <path id="패스_72" d="M32 38a1 1 0 0 1-.537-.156l-11-7A1 1 0 0 1 20 30V18a1 1 0 0 1 .521-.878l11-6a1 1 0 0 1 .958 0l11 6A1 1 0 0 1 44 18v12a1 1 0 0 1-.463.844l-11 7A1 1 0 0 1 32 38m-10-8.549l10 6.363 10-6.363V18.594l-10-5.455-10 5.455z" class="cls-3" data-name="패스 72"/>
+            <path id="패스_73" d="M32 48a1 1 0 0 1-1-1V24a1 1 0 0 1 2 0v23a1 1 0 0 1-1 1" class="cls-3" data-name="패스 73"/>
+            <path id="패스_74" d="M32 7a1 1 0 0 1-1-1V1a1 1 0 0 1 2 0v5a1 1 0 0 1-1 1" class="cls-3" data-name="패스 74"/>
+            <path id="패스_75" d="M12 36a1 1 0 0 1-1-1V12a1 1 0 0 1 2 0v23a1 1 0 0 1-1 1" class="cls-3" data-name="패스 75"/>
+        </g>
+    </g>
+</svg>

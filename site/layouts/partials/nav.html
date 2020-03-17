@@ -1,0 +1,31 @@
+<header id="header" class="transparent-header semi-transparent dark full-header static-sticky">
+	<div id="header-wrap">
+		<div class="container clearfix">
+			<!-- Logo ============================================= -->
+			<div id="logo">
+				<a href="/" class="standard-logo" data-dark-logo="/collab/images/logo.png">
+                          <img src="/collab/images/logo_dark.png" alt="Collab Korea">
+                      </a>
+				<a href="/" class="retina-logo" data-dark-logo="/collab/images/logo.png">
+                          <img src="/collab/images/logo_dark.png" alt="Collab Korea">
+                      </a>
+			</div>
+			<!-- #logo end -->
+			<!-- Primary Navigation ============================================= -->
+			<nav id="primary-menu">
+				<ul class="one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.nav }}
+            <li>
+              <a href="{{ .URL }}" class="{{if eq $currentPage.RelPermalink .URL }}active{{end}}">
+                <div>{{ .Name }}</div>
+              </a>
+            </li>
+          {{ end }}
+				</ul>
+			</nav>
+      <div id="side-panel-trigger" class="side-panel-trigger visible-xs"><a href="#"><i class="icon-reorder"></i></a></div>
+			<!-- #primary-menu end -->
+		</div>
+	</div>
+</header>

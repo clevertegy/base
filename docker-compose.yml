@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  app:
+    image: node:12.13.0
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: ["npm", "run", "docker:preview"]
+    ports:
+      - 3000:3000

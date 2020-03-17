@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="subs_ison.svg" width="24" height="18" viewBox="0 0 24 18">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#ef373e}
+        </style>
+        <clipPath id="clip-path">
+            <path id="사각형_52" d="M0 0h24v18H0z" class="cls-1" data-name="사각형 52"/>
+        </clipPath>
+    </defs>
+    <g id="그룹_94" data-name="그룹 94">
+        <g id="그룹_93" class="cls-2" data-name="그룹 93">
+            <path id="패스_131" d="M23.6 2.193A1.819 1.819 0 0 0 22.136.711a72.627 72.627 0 0 0-20.271 0A1.819 1.819 0 0 0 .4 2.193a58.644 58.644 0 0 0 0 13.614 1.819 1.819 0 0 0 1.468 1.482 72.621 72.621 0 0 0 20.271 0 1.819 1.819 0 0 0 1.461-1.482 58.644 58.644 0 0 0 0-13.614m-7.441 7.462L9.73 13.517a.746.746 0 0 1-1.13-.655V5.138a.746.746 0 0 1 1.13-.655l6.429 3.862a.768.768 0 0 1 0 1.311" class="cls-3" data-name="패스 131"/>
+        </g>
+    </g>
+</svg>

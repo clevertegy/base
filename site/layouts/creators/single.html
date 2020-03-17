@@ -1,0 +1,122 @@
+{{ define "main" }}
+
+{{ partial "side.html" . }}
+<!-- Document Wrapper ============================================= -->
+<div id="wrapper" class="clearfix">
+	<!-- header section -->
+  {{ partial "nav.html" . }}
+	<!-- header end -->
+	<!-- Slider ============================================= -->
+	<section id="slider" class="slider-parallax full-screen force-full-screen">
+		<div class="slider-parallax-inner">
+			<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden">
+				<div class="container center"></div>
+				<div class="video-wrap no-placeholder">
+          <div class="video-placeholder" style="background-image: url('/collab/images/creator/creator-title.png');"></div>
+					<div class="video-overlay">
+            <div class='col-heading-overlay'>
+              <p class='col-text-heading col-text-en'>CREATORS</p>
+              <p class='col-text-heading col-text-en'>GOTTA</p>
+              <p class='col-text-heading col-text-en'>CREATE.</p>
+              <p class='col-text-heading-sub'>크리에이터는</p>
+              <p class='col-text-heading-sub'>제작에 집중할 수 있도록.</p>
+            </div>
+          </div>
+				</div>
+				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+			</div>
+		</div>
+	</section>
+	<!-- #slider end -->
+	<!-- Content ============================================= -->
+  <div class='container col-position-relative hidden-xs'>
+    <div class='col-heading-arrow'></div>
+  </div>
+	<section id="content">
+		<div class="content-wrap nopadding nomargin">
+			<div id="section-about" class="page-section dark">
+				<div class="container clearfix ">
+          <h2 class="col-text-head3 col-text-color-white col-text-weight-light col-text-keep-all">콜랩의 크리에이터를 소개합니다</h2>
+          <div class='row'>
+            {{ range $.Site.Data.creators }}
+              <div class='col-md-3 col-xs-6'>
+                <div class='col-creator'>
+                  <a href="{{ .link }}">
+                    <img class='col-creator-img' src="{{ .avatar }}" />
+                  </a>
+                  <div class='col-creator-name col-text-truncate col-text-center'>{{ .name | safeHTML }}</div>
+                  <div class='col-creator-category col-text-en'>{{ .category }}</div>
+                  <div class='col-creator-views col-text-en'><img class='col-icon' src='/collab/icons/creator/subs.svg'>{{ .views }}</div>
+                </div>
+              </div>
+            {{ end }}
+          </div>
+          <div class='row'>
+            <div class='col-md-12 col-text-center'>
+              <a class='col-btn-outline col-creator-btn' href='https://www.youtube.com/user/CollabKorea'>더 많은 크리에이터 확인</a>
+            </div>
+          </div>
+				</div>
+      </div>
+      <div class="page-section">
+        <div class="container clearfix">
+          <div class="sc-content col-text-keep-all">
+            <h2 class="col-text-head3 col-text-weight-light">콜랩의 크리에이터 지원</h2>
+            <ul class='col-list'>
+              <li class='col-flex-center'>
+                <img class='col-icon col-list-img' src='/collab/icons/creator/icon1.svg'>
+                <div class='col-list-content'>
+                  <div class='col-lits-content-title'>1:1 컨설팅</div>
+                  <div class='col-lits-content-sub'>크리에이터 별, 플랫폼 별 맞춤형 상담을 통해 채널 성장을 지원합니다.</div>
+                </div>
+              </li>
+              <li class='col-flex-center'>
+                <img class='col-icon col-list-img' src='/collab/icons/creator/icon2.svg'>
+                <div class='col-list-content'>
+                  <div class='col-lits-content-title'>새로운 광고 기회</div>
+                  <div class='col-lits-content-sub'>크리에이터와 채널에 맞는 브랜드를 연결하여 최적의 광고 기회를 제공합니다.</div>
+                </div>
+              </li>
+              <li class='col-flex-center'>
+                <img class='col-icon col-list-img' src='/collab/icons/creator/icon3.svg'>
+                <div class='col-list-content'>
+                  <div class='col-lits-content-title'>디지털 저작권 관리</div>
+                  <div class='col-lits-content-sub'>콜랩만의 저작권 관리 노하우로 영상 및 음원 콘텐츠의 디지털 저작권을 보호해드립니다.</div>
+                </div>
+              </li>
+              <li class='col-flex-center'>
+                <img class='col-icon col-list-img' src='/collab/icons/creator/icon4.svg'>
+                <div class='col-list-content'>
+                  <div class='col-lits-content-title'>음원 사용 / 디자인 지원</div>
+                  <div class='col-lits-content-sub'>콘텐츠 제작에 필요한 음원, 폰트와 채널에 맞는 디자인을 지원해드립니다.</div>
+                </div>
+              </li>
+              <li class='col-flex-center'>
+                <img class='col-icon col-list-img' src='/collab/icons/creator/icon5.svg'>
+                <div class='col-list-content'>
+                  <div class='col-lits-content-title'>글로벌 콜라보레이션 기회</div>
+                  <div class='col-lits-content-sub'>아시아 전역에서 함께하고 있는 다양한 크리에이터와의 콜라보레이션을 지원해드립니다.</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="page-section red col-contact-container">
+        <div class="container clearfix">
+          <div class="sc-content pull-right">
+            <span class='col-text3'>더 많은 정보가 필요하신가요?<hr class='col-text-hr'></span>
+            <a class='col-btn-outline' href='/login'>문의하기</a>
+          </div>
+        </div>
+      </div>
+	</section>
+	<!-- #content end -->
+	<!-- Footer
+============================================= -->
+	{{ partial "footer2.html" . }}
+	<!-- #footer end -->
+</div>
+<!-- #wrapper end -->
+
+{{ end }}

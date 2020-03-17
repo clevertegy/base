@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pgrm5.svg" width="64" height="65" viewBox="0 0 64 65">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#ef373e}
+        </style>
+        <clipPath id="clip-path">
+            <path id="사각형_21" d="M0 0h64v65H0z" class="cls-1" data-name="사각형 21"/>
+        </clipPath>
+    </defs>
+    <g id="그룹_32" data-name="그룹 32">
+        <g id="그룹_31" class="cls-2" data-name="그룹 31">
+            <path id="패스_51" d="M41 65h-2v-4.031h-2a1 1 0 0 1-1-1.008V46.86h2v12.093h2a1 1 0 0 1 1 1.008z" class="cls-3" data-name="패스 51"/>
+            <path id="패스_52" d="M27 65h-2v-5.039a1 1 0 0 1 1-1.008h2V46.86h2v13.1a1 1 0 0 1-1 1.008h-2z" class="cls-3" data-name="패스 52"/>
+            <path id="사각형_20" d="M0 0h5v2.016H0z" class="cls-3" data-name="사각형 20" transform="translate(34 58.953)"/>
+            <path id="패스_53" d="M63 44.845H1a1 1 0 0 1-1-1.008V7.558A1 1 0 0 1 1 6.55h62a1 1 0 0 1 1 1.008v36.279a1 1 0 0 1-1 1.008M2 42.829h60V8.566H2z" class="cls-3" data-name="패스 53"/>
+            <path id="패스_54" d="M15 8.566a1 1 0 0 1-1-1.008V1.512a1 1 0 1 1 2 0v6.046a1 1 0 0 1-1 1.008" class="cls-3" data-name="패스 54"/>
+            <path id="패스_55" d="M15 .5a3.012 3.012 0 0 0-3 3.023h6A3.012 3.012 0 0 0 15 .5" class="cls-3" data-name="패스 55"/>
+            <path id="패스_56" d="M18.5 4.031h-7v-.5a3.5 3.5 0 1 1 7 0zm-5.95-1.008h4.9a2.5 2.5 0 0 0-4.9 0" class="cls-3" data-name="패스 56"/>
+            <path id="패스_57" d="M32 8.566a1 1 0 0 1-1-1.008V1.512a1 1 0 1 1 2 0v6.046a1 1 0 0 1-1 1.008" class="cls-3" data-name="패스 57"/>
+            <path id="패스_58" d="M49 .5a3.012 3.012 0 0 0-3 3.023h6A3.012 3.012 0 0 0 49 .5" class="cls-3" data-name="패스 58"/>
+            <path id="패스_59" d="M52.5 4.031h-7v-.5a3.5 3.5 0 1 1 7 0zm-5.95-1.008h4.9a2.5 2.5 0 0 0-4.9 0" class="cls-3" data-name="패스 59"/>
+            <path id="패스_60" d="M49 8.566a1 1 0 0 1-1-1.008V1.512a1 1 0 1 1 2 0v6.046a1 1 0 0 1-1 1.008" class="cls-3" data-name="패스 60"/>
+            <path id="패스_61" d="M32 .5a3.012 3.012 0 0 0-3 3.023h6A3.012 3.012 0 0 0 32 .5" class="cls-3" data-name="패스 61"/>
+            <path id="패스_62" d="M35.5 4.031h-7v-.5a3.5 3.5 0 1 1 7 0zm-5.95-1.008h4.9a2.5 2.5 0 0 0-4.9 0" class="cls-3" data-name="패스 62"/>
+            <path id="패스_63" d="M30.667 33.76a1 1 0 0 1-.923-.62l-4.911-11.876-4.91 11.876a1 1 0 0 1-1.308.542 1.01 1.01 0 0 1-.538-1.318l5.833-14.109a1 1 0 0 1 1.846 0l5.834 14.109a1.01 1.01 0 0 1-.538 1.318.981.981 0 0 1-.385.078" class="cls-3" data-name="패스 63"/>
+            <path id="패스_64" d="M28 28.721h-6a1.008 1.008 0 0 1 0-2.016h6a1.008 1.008 0 0 1 0 2.016" class="cls-3" data-name="패스 64"/>
+            <path id="패스_65" d="M39 33.76h-4a1 1 0 0 1-1-1.008V18.643a1 1 0 0 1 1-1.008h4a8.062 8.062 0 0 1 0 16.125m-3-2.016h3a6.047 6.047 0 0 0 0-12.093h-3z" class="cls-3" data-name="패스 65"/>
+        </g>
+    </g>
+</svg>

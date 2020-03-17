@@ -1,0 +1,130 @@
+{{ define "main" }}
+
+{{ partial "side.html" . }}
+<!-- Document Wrapper ============================================= -->
+<div id="wrapper" class="clearfix">
+	<!-- header section -->
+  {{ partial "nav.html" . }}
+	<!-- header end -->
+	<!-- Slider ============================================= -->
+	<section id="slider" class="slider-parallax full-screen force-full-screen">
+		<div class="slider-parallax-inner">
+			<div class="full-screen force-full-screen dark section nopadding nomargin noborder ohidden">
+				<div class="container center"></div>
+				<div class="video-wrap no-placeholder">
+          <div class="video-placeholder" style="background-image: url('/collab/images/ba/ba-title.png');"></div>
+					<div class="video-overlay">
+            <div class='col-heading-overlay'>
+              <p class='col-text-heading col-text-en'>YOUR BRAND.</p>
+              <p class='col-text-heading col-text-en'>OUR NETWORK.</p>
+              <p class='col-text-heading col-text-en'>LET’S GO!</p>
+              <p class='col-text-heading-sub'>당신의 브랜드.</p>
+              <p class='col-text-heading-sub'>우리의 네트워크.</p>
+              <p class='col-text-heading-sub'>함께해요.</p>
+            </div>
+          </div>
+				</div>
+				<a href="#" data-scrollto="#section-about" data-easing="easeInOutExpo" data-speed="1250" data-offset="65" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+			</div>
+		</div>
+	</section>
+  <div class='container col-position-relative hidden-xs'>
+    <div class='col-heading-arrow'></div>
+  </div>
+	<section id="content">
+		<div class="content-wrap nopadding nomargin">
+			<div id="section-ba" class="page-section">
+				<div class="container clearfix ">
+          <h2 class="col-text-head2 col-text-en">Brand Campaign</h2>
+          <div class='row'>
+            <p class='col-md-7 col-text4 col-text-keep-all'>아시아 전역에 있는 콜랩의 크리에이터와 함께 여러분의 브랜드를 홍보 할 수 있습니다.  콜랩은 브랜드, 상품, 서비스 등의 디지털 미디어 홍보, 실행과  분석까지 차별화된 서비스를 제공합니다.</p>
+          </div>
+				</div>
+      </div>
+      <div class="page-section col-brand-container">
+				<div class="clearfix ">
+          <div class='row'>
+            <div class='col-md-6 visible-xs'>
+              <img src='/collab/images/ba/brand-campaign.png'>
+              <div class='col-overlay col-overlay-red'></div>
+            </div>
+            <div class='col-md-6'>
+              <div class='col-brand-container-info'>
+                <h3 class='col-text-3 col-text-color-red col-text-weight-bold'>광고 진행 절차</h3>
+                <ul class='col-list'>
+                  <li class='col-flex-center'>
+                    <img class='col-list-img' src='/collab/icons/ba/icon1.svg'>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">1 <span class='col-text-color-black'>문의</span></div>
+                    </div>
+                  </li>
+                  <li class='col-flex-center'>
+                    <img class='col-list-img' src='/collab/icons/ba/icon2.svg'>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">2 <span class='col-text-color-black'>크리에이터 섭외 및 기획</span></div>
+                    </div>
+                  </li>
+                  <li class='col-flex-center'>
+                    <img class='col-list-img' src='/collab/icons/ba/icon3.svg'>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">3 <span class='col-text-color-black'>영상제작</span></div>
+                    </div>
+                  </li>
+                  <li class='col-flex-center'>
+                    <img class='col-list-img' src='/collab/icons/ba/icon4.svg'>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">4 <span class='col-text-color-black'>채널 업로드</span></div>
+                    </div>
+                  </li>
+                  <li class='col-flex-center'>
+                    <img class='col-list-img' src='/collab/icons/ba/icon5.svg'>
+                    <div class="col-list-content">
+                      <div class="col-lits-content-title">5 <span class='col-text-color-black'>분석</span></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class='col-md-6 hidden-xs'>
+              <img src='/collab/images/ba/brand-campaign.png'>
+              <div class='col-overlay col-overlay-red'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-section nopadding red col-position-relative col-brand-cliens-container">
+        <div class='col-half-bg-white'></div>
+        <div class="container clearfix nopadding">
+          <img src='/collab/images/ba/work-with.jpg'>
+          <div class='col-overlay col-overlay-red'>
+            <h2 class="col-text-head2 col-text-en col-overlay-text">Collab works with</h2>
+          </div>
+        </div>
+      </div>
+      <div class="page-section">
+        <div class="container clearfix">
+          <div class='row'>
+            {{ range $.Site.Data.clients }}
+              <div class='col-md-p20'>
+                <div class='col-client-img'>
+                  <img src="{{ .}}">
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="page-section red col-contact-container">
+        <div class="container clearfix">
+          <div class="sc-content pull-right">
+            <span class='col-text3'>더 많은 정보가 필요하신가요?<hr class='col-text-hr'></span>
+            <a class='col-btn-outline' href='/login'>문의하기</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ partial "footer2.html" . }}
+</div>
+
+{{ end }}
