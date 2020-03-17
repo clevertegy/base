@@ -28,9 +28,14 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     name = "저작권 관리"
     id_u = "drm"
     url = "/drm/"
-    weight = 4
+    weight = 4	
+  [[menu.nav]]
+    name = "음원 유통"
+    id_u = "music"
+    url = "/music/"
+    weight = 5
   [[menu.nav]]
     name = "문의하기"
     id_u = "login"
     url = "/login/"
-    weight = 5
+    weight = 6
