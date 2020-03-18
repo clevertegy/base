@@ -629,8 +629,14 @@
 
 
 /* add */
+.colmgsub {margin-left:106.5px;}
 
 .bci2 {width:760px; margin-left:-204.4px;}
+
+.mgt20 {margin-top:20px;}
+
+.reqbtn {width:257px; height:68px; background-color:#ef373e; color:#fff; padding-top:23px; margin-top:30px;}
+.reqbtn {font-size:22px; font-weight:normal; letter-spacing:normal; text-align:center;}
 
 .col-baicon-img {
  margin:auto;
@@ -665,7 +671,7 @@
     right: 0;
     margin: auto;
   }
-  .video-overlay2 {
+  .vdext {
     width: 1075px !important;
     right: 0;
     margin: auto;
