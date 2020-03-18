@@ -280,13 +280,14 @@
 .col-text-head1 {
   font-size: 60px;
   color: #ef373e;
+  font-weight: bold;
   letter-spacing: -3px;
 }
 
 .col-text-head1-sub {
   word-break: keep-all;
   font-size: 22px;
-  max-width: 700px;
+  max-width: 796px;
   color: #3a3a3a;
   letter-spacing: -1.1px;
   line-height: 1.45 !important;
