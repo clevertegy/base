@@ -624,6 +624,7 @@
 
 /* add */
 .confw {width:1920px !important; margin:0 auto;}
+.bgg {background-color:#fafafa;}
 .colmgsub {margin-left:106.5px;}
 
 .bci2 {width:760px !important; margin-left:200px;}
@@ -660,7 +661,7 @@
   letter-spacing: normal;
 }
 
-.col-text7 a {color:#ef373e;}
+.col-text7 a {color:#ef373e; text-decoration:underline;}
 
 .col-baicon {
  text-align:center;
