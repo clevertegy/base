@@ -365,13 +365,7 @@
   letter-spacing: -1px;
 }
 
-.col-text5 {
-  font-size: 20px;
-  font-weight: normal;
-  color: #3a3a3a;
-  letter-spacing: -1px;
-  margin-top:12.7px;
-}
+
 
 
 .col-text3 .col-text-hr {
@@ -631,15 +625,45 @@
 /* add */
 .colmgsub {margin-left:106.5px;}
 
-.bci2 {width:760px; margin-left:-204.4px;}
+.bci2 {width:760px !important; margin-left:-204.4px;}
 
-.mgt20 {margin-top:20px;}
+.mgt20 {margin-top:20px !important;}
 
-.reqbtn {width:257px; height:68px; background-color:#ef373e; color:#fff; padding-top:23px; margin-top:30px;}
+.reqbtn {width:257px; height:68px; background-color:#ef373e; color:#fff; padding-top:20px; margin-top:50px;}
 .reqbtn {font-size:22px; font-weight:normal; letter-spacing:normal; text-align:center;}
 
+.vdext {
+    width: 1075px !important;
+} 
+
+.col-text5 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #3a3a3a;
+  letter-spacing: -1px;
+  margin-top:12.7px;
+}
+
+.col-text6 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #3a3a3a;
+  letter-spacing: -1.1px;
+
+}
+
+.col-text7 {
+  font-size: 22px;
+  font-weight: normal;
+  color: #3a3a3a;
+  letter-spacing: normal;
+}
+
+.col-text7 a {color:#ef373e;}
+
+
 .col-baicon-img {
- margin:auto;
+ text-align:center;
 }
 
 .col-baicon-title {
@@ -671,11 +695,7 @@
     right: 0;
     margin: auto;
   }
-  .vdext {
-    width: 1075px !important;
-    right: 0;
-    margin: auto;
-  }  
+ 
 }
 
 @media (max-width: 479px) {
