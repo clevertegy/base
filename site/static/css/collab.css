@@ -623,9 +623,10 @@
 
 
 /* add */
+.confw {width:1920px !important; margin:0 auto;}
 .colmgsub {margin-left:106.5px;}
 
-.bci2 {width:760px !important; margin-left:-204.4px;}
+.bci2 {width:760px !important; margin-left:200px;}
 
 .mgt20 {margin-top:20px !important;}
 
@@ -661,8 +662,7 @@
 
 .col-text7 a {color:#ef373e;}
 
-
-.col-baicon-img {
+.col-baicon {
  text-align:center;
 }
 
