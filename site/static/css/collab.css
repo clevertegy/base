@@ -630,6 +630,7 @@
 .bci2 {width:760px !important; margin-left:200px;}
 
 .mgt20 {margin-top:20px !important;}
+.mgb40 {margin-bottom:40px !important;}
 
 .reqbtn {width:257px; height:68px; background-color:#ef373e; color:#fff; padding-top:20px; margin-top:50px;}
 .reqbtn {font-size:22px; font-weight:normal; letter-spacing:normal; text-align:center;}
@@ -667,12 +668,18 @@
  text-align:center;
 }
 
+.col-baicon-img1 { margin-top:84.6px;}
+.col-baicon-img2 { margin-top:76.6px;}
+.col-baicon-img3 { margin-top:74.6px;}
+.col-baicon-img4 { margin-top:71.6px;}
+
 .col-baicon-title {
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing:-0.7px;
   color: #ef373e;
   margin-top:30px;
+  border-right:1px solid #D2D2D2;
 }
 
 .col-baicon-text {
@@ -680,7 +687,8 @@
   font-weight: normal;
   letter-spacing:-0.85px;
   color: #3a3a3a;
-  margin-top:20px;
+  padding-top:20px;
+  border-right:1px solid #D2D2D2;  
 }
 
 
