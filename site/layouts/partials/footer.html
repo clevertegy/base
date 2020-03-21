@@ -42,6 +42,11 @@ overviewMapControl: false
 });
 });
 jQuery(window).scroll( function(){
+
+var curheight = $(document).scrollTop();
+var winheight = $( window ).height();
+
+if (curheight > winheight) {
 var currentScrollSection = SEMICOLON.header.onePageCurrentSection();
 if( jQuery('#'+currentScrollSection).hasClass('dark') ) {
 jQuery('#header').addClass('dark');
@@ -51,5 +56,13 @@ jQuery('#header').removeClass('dark');
 jQuery('#header-wrap').addClass('not-dark');
 }
 SEMICOLON.header.logo();
+}
 });
+
+$('#copyrights').find('img').hover(function() { 
+	$(this).attr("src",$(this).attr("src").replace(/off\.svg$/, 'on.svg'));
+ }, function() { 
+	$(this).attr("src",$(this).attr("src").replace(/on\.svg$/, 'off.svg'));
+ });
+
 </script>
