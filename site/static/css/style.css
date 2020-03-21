@@ -12014,6 +12014,7 @@ button.toast-close-button {
 .copyrights-menu a {
 	font-size: 14px;
 	margin: 0 10px;
+	letter-spacing:0.14px;
 	border-bottom: 0 !important;
 }
 
