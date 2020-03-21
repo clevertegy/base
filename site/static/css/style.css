@@ -12004,11 +12004,12 @@ button.toast-close-button {
 }
 
 .copyright-links a:hover {
+	
 	color: #555;
 	border-bottom: 1px solid #666;
 }
 
-.copyrights-menu { margin-bottom: 10px; }
+.copyrights-menu { margin-bottom: 10px; text-align:right; margin-top:10px; margin-right:-20px;}
 
 .copyrights-menu a {
 	font-size: 14px;
