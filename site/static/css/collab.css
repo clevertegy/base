@@ -1,6 +1,6 @@
 /* custom font */
 
-/*
+
 @font-face {
  font-family: 'NanumSquare';
  font-weight: 400;
@@ -68,10 +68,10 @@
   src: url(/collab/fonts/mada/Mada-Black.ttf) format("truetype");
 }
 
-*/
+
 
 /* custom font2 */
-
+/*
 @font-face {
  font-family: 'NanumSquare';
  font-weight: 400;
@@ -138,7 +138,7 @@
   font-weight: 900;
   src: url(/cl/collab/fonts/mada/Mada-Black.ttf) format("truetype");
 }
-
+*/
 
 /* overwrite styles */
 
