@@ -20,7 +20,7 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     url = "/creators/"
     weight = 2
   [[menu.nav]]
-    name = "브랜드 & 에이전시"
+    name = "브랜드 & 광고"
     id_u = "about"
     url = "/about/"
     weight = 3
