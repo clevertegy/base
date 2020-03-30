@@ -777,7 +777,7 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 500px;
+    width: 700px;
   }
 
   .col-brand-container-info {
@@ -792,7 +792,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 700px;
+    width: 900px;
   }
 
   .col-brand-container-info {
@@ -4193,8 +4193,8 @@ a.badge:focus {
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .jumbotron h1,
   .jumbotron .h1 {
