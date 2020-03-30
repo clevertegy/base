@@ -1681,7 +1681,7 @@
   }
 }
 
-@media (max-width: 768px ) {
+@media (min-width: 480px) and @media (max-width: 768px ) {
 
 	#header.transparent-header.floating-header .container {
 		width: 950px !important;
@@ -1909,7 +1909,7 @@
 }
 
 
-@media (max-width: 1024px ) {
+@media (min-width: 480px) and @media (max-width: 1024px ) {
 
 	#header.transparent-header.floating-header .container {
 		width: 950px !important;
