@@ -70,76 +70,6 @@
 
 
 
-/* custom font2 */
-/*
-@font-face {
- font-family: 'NanumSquare';
- font-weight: 400;
- src: url(/cl/collab/fonts/nanum_square/NanumSquareR.eot);
- src: url(/cl/collab/fonts/nanum_square/NanumSquareR.eot?#iefix) format('embedded-opentype'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareR.woff) format('woff'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareR.ttf) format('truetype');
-}
-
-@font-face {
- font-family: 'NanumSquare';
- font-weight: 700;
- src: url(/cl/collab/fonts/nanum_square/NanumSquareB.eot);
- src: url(/cl/collab/fonts/nanum_square/NanumSquareB.eot?#iefix) format('embedded-opentype'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareB.woff) format('woff'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareB.ttf) format('truetype');
-}
-
-
-@font-face {
- font-family: 'NanumSquare';
- font-weight: 800;
- src: url(/cl/collab/fonts/nanum_square/NanumSquareEB.eot);
- src: url(/cl/collab/fonts/nanum_square/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareEB.woff) format('woff'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareEB.ttf) format('truetype');
-}
-
-@font-face {
- font-family: 'NanumSquare';
- font-weight: 300;
- src: url(/cl/collab/fonts/nanum_square/NanumSquareL.eot);
- src: url(/cl/collab/fonts/nanum_square/NanumSquareL.eot?#iefix) format('embedded-opentype'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareL.woff) format('woff'),
-      url(/cl/collab/fonts/nanum_square/NanumSquareL.ttf) format('truetype');
-}
-
-@font-face {
-  font-family: 'Mada';
-  font-weight: 300;
-  src: url(/cl/collab/fonts/mada/Mada-Light.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Mada';
-  font-weight: normal;
-  src: url(/cl/collab/fonts/mada/Mada-Regular.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Mada';
-  font-weight: 600;
-  src: url(/cl/collab/fonts/mada/Mada-SemiBold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Mada';
-  font-weight: bold;
-  src: url(/cl/collab/fonts/mada/Mada-Bold.ttf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Mada';
-  font-weight: 900;
-  src: url(/cl/collab/fonts/mada/Mada-Black.ttf) format("truetype");
-}
-*/
-
 /* overwrite styles */
 
 #primary-menu ul li a.active {
@@ -1035,9 +965,32 @@
   
 }
 
-@media (max-width: 1024px ) {
+@media (min-width: 1025px) and (max-width: 1200px) {
+	
+	#header.transparent-header.floating-header .container {
+		width: 950px !important;
+		padding: 0 15px;
+		border-radius: 0;
+		background-color:red;
+	}	
+	
+body.stretched #header.full-header .container {
+	padding: 0 5% !important;
+}	
+	
   .video-overlay {
     width: 900px !important;
+    right: 0;
+    margin: auto;
+  }	
+	
+	
+}
+
+
+@media (max-width: 1024px ) {
+  .video-overlay {
+    width: 95% !important;
     right: 0;
     margin: auto;
   }
@@ -1051,8 +1004,8 @@
 @media (max-width: 1024px ) {
 
 	#header.transparent-header.floating-header .container {
-		width: 950px !important;
-		padding: 0 15px;
+		width: 90% !important;
+		padding: 0 5%;
 		border-radius: 0;
 		background-color:red;
 	}
@@ -1418,6 +1371,7 @@ body.stretched #header.full-header .container {
 
 }
 
+
 @media (max-width: 479px) {
   .video-overlay {
     width: 350px !important;
@@ -1516,6 +1470,14 @@ body.stretched #header.full-header .container {
     margin-bottom:30px;	
 }
 
+  #logo img {
+    width: 115px;
+	margin-left:-15px;
+	margin-top:10px;
+  }
+
+
+
 #primary-menu ul {
 	padding-bottom:30px !important;
 }
@@ -1524,9 +1486,8 @@ body.stretched #header.full-header .container {
 	height:60px;
 }
 
-#primary-menu ul li div {
-	padding:0 30px;
-}
+#header {background-color:transparent !important; padding:0 !important;}
+#header-wrap {background-color:transparent !important;}
 
 #primary-menu ul li > a {
 	display: block;
@@ -1571,11 +1532,6 @@ body.stretched #header.full-header .container {
 
 .ytbct {width:50px !important; margin-top:-7px; margin-left:8px !important; margin-right:5px;}
 
-  #logo img {
-    width: 100px;
-	margin-left:10px;
-	margin-top:10px;
-  }
 
 .content-wrap {
 	padding: 35px 0;
@@ -2043,4 +1999,114 @@ body.stretched #header.full-header .container {
   .col-text-head2 {
     line-height: 1;
   }
+  
+.col-icon-circle {
+  padding: 15px;
+  border-radius: 50%;
+  margin-left:5px; 
+  margin-bottom:10px;
+}
+.col-icon-circle img {
+  width: 20px;
+  height: 20px;
+}  
+  
+}
+
+@media (min-width: 480px) and (max-width: 991px) {
+
+  .video-overlay {
+    width: 90% !important;
+    right: 0;
+    margin: auto;
+  }
+
+
+
+#header {background-color:transparent !important; padding:0 !important;}
+#header-wrap {background-color:transparent !important;}
+	
+#side-panel-trigger a {width:24px; height:16px; font-size:24px; margin-top:29px; margin-right:20px;}
+#slider {margin-top:-70px;}
+
+
+
+.mupmmu {
+  position:absolute; 
+  top:0;
+  left:0;
+  width:100%;
+  margin:0 auto;
+  background-color: #000;
+  padding:0;
+}
+
+.mlogo {
+    width: 100px;
+	margin-left:25px;
+	margin-top:29px;
+    margin-bottom:30px;	
+}
+
+  #logo img {
+    width: 115px;
+	margin-left:-15px;
+	margin-top:10px;
+  }
+
+
+
+#primary-menu ul {
+	padding-bottom:30px !important;
+}
+
+#primary-menu ul li {
+	height:60px;
+}
+
+#primary-menu ul li div {
+	padding:0 30px;
+}	
+}
+
+
+@media (max-width: 393px) {
+
+  .video-overlay {
+    width: 90% !important;
+    right: 0;
+    margin: auto;
+  }
+
+.col-heading-overlay {
+  top: 35%;
+}
+
+
+.col-text-list-head {
+  font-size: 12px;
+}
+
+.col-text-list-head .col-text-hr {
+  width: 20px;
+  margin: 0 3px;
+}
+
+.col-text1 {
+  font-size: 12px;
+
+}
+
+.maphr {width:100% !important;  }
+.col-icon-circle {
+  padding: 15px;
+  border-radius: 50%;
+  margin-left:5px; 
+  margin-bottom:10px;
+}
+.col-icon-circle img {
+  width: 20px;
+  height: 20px;
+}
+
 }

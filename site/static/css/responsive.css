@@ -251,9 +251,9 @@
 
 	#header.full-header .container,
 	.container-fullwidth {
-		padding: 0 15px !important;
+		padding: 0 5% !important;
 		margin: 0 auto;
-		width: 750px !important;
+		width: 90% !important;
 	}
 
 	.container.vertical-middle { width: 100% !important; }
@@ -312,8 +312,8 @@
 	#header.transparent-header.floating-header { margin-top: 0; }
 
 	#header.transparent-header.floating-header .container {
-		width: 750px;
-		padding: 0 15px;
+		width: 90%;
+		padding: 0 5%;
 		border-radius: 0;
 	}
 
@@ -1484,7 +1484,7 @@
 
 	.container,
 	#header.full-header .container,
-	.container-fullwidth { width: 470px !important; }
+	.container-fullwidth { width: 100% !important; }
 
 	.container.vertical-middle { width: 100% !important; }
 
